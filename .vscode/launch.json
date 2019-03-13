@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SortMain",
+            "request": "launch",
+            "mainClass": "SortMain",
+            "projectName": "Sort_a7c4c6f8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SortJava",
+            "request": "launch",
+            "mainClass": "SortJava",
+            "projectName": "Sort_a7c4c6f8"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SelectionSortJava",
+            "request": "launch",
+            "mainClass": "SelectionSortJava",
+            "projectName": "Sort_a7c4c6f8"
+        }
+    ]
+}
