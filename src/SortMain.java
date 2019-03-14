@@ -1,12 +1,12 @@
 public class SortMain {
 
     public static void main(String[] args){
-        int[] arrayExample = {38, 65, 97, 76, 13, 27, 49};
-
+       
         System.out.println("20190312 选择排序 一般的示例");
+        int[] selectSortArray = {38, 65, 97, 76, 13, 27, 49};
         SelectSort selectSort = new SelectSort();
-        selectSort.selectSort(arrayExample);
-        for (int item : arrayExample){
+        selectSort.selectSort(selectSortArray);
+        for (int item : selectSortArray){
             System.out.print(item + " ");
         }        
         System.out.println();
@@ -20,9 +20,19 @@ public class SortMain {
         System.out.println();
 
         System.out.println("20190313 插入排序 一般的示例");
+        int[] insertSortArray = {38, 65, 97, 76, 13, 27, 49};
         InsertSort insertSort = new InsertSort();
-        insertSort.insertSort(arrayExample);
-        for (int item : arrayExample){
+        insertSort.insertSort(insertSortArray);
+        for (int item : insertSortArray){
+            System.out.print(item + " ");
+        }
+        System.out.println();
+
+        System.out.println("20190314 冒泡排序 一般的示例");
+        int[] bubbleSortArray = {38, 65, 97, 76, 13, 27, 49};
+        BubbleSort bubbleSort = new BubbleSort();
+        bubbleSort.bubbleSort(bubbleSortArray);
+        for (int item : bubbleSortArray){
             System.out.print(item + " ");
         }
         System.out.println();
